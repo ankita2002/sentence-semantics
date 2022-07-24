@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+html, body {
+    background-color: rgb(71, 0, 101);
+    font-family: 'Inter', sans-serif !important;
+    box-sizing: border-box;
+    color: white;
+    padding-top: 1rem;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  textarea {
+    opacity: 0.7;
+    transition: 1s;
+  }
+  textarea:focus, textarea:hover {
+    opacity: 0.85;
+    box-shadow: 0 0 4px rgba(0,0,0,.6);
+  }
